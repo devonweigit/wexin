@@ -1,0 +1,4 @@
+<view>
+    <text class="fa fa-edit"></text>
+    <!--<i class="fa fa-edit">12</i>-->
+</view>

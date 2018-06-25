@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/dashboard/index",
+    "pages/booking/index",
+    "pages/bookNow/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "",
+    "selectedColor": "#18AF5C",
+    "backgroundColor": "",
+    "list": [
+      {
+        "pagePath":"pages/dashboard/index" ,
+        "iconPath": "images/nav/home-off.png",
+        "selectedIconPath": "images/nav/home-on.png",
+        "text": "dashboard"
+      },
+      {
+        "pagePath":"pages/booking/index" ,
+        "iconPath": "images/nav/my-off.png",
+        "selectedIconPath": "images/nav/my-on.png",
+        "text": "bookings"
+      },
+      {
+        "pagePath":"pages/bookNow/index" ,
+        "iconPath": "images/nav/cart-off.png",
+        "selectedIconPath": "images/nav/cart-on.png",
+        "text": "Book Now"
+      }
+    ]
+  }
+}
